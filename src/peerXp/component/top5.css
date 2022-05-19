@@ -1,0 +1,15 @@
+.top5Image{
+    width: 20vw;
+    height: 20vh;
+}
+
+.topPosts{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap
+}
+
+
+.topPosts div{
+    margin: 5%;
+}
