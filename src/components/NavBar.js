@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <Header position='static'>
         <Toolbar>
-             <Tabs to='/'>Code For Mern</Tabs>
+             <Tabs to='/'>Rakesh Kumar Keer</Tabs>
              <Tabs to='/alluser'>All User</Tabs>
              <Tabs to='/adduser'>Add User</Tabs>
         </Toolbar>
