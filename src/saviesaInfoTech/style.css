@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bodyBackground{
+    
+    height: 100vh;
+    background-image: url('component/train2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+} 
+
+/* otp page styling */
+
+.sendotp{
+    display: flex;
+   justify-content: center;
+
+}
+
+.sendotp div{
+    width: 3vw;
+    height: 5vh;
+    background-color: blue;
+    margin-left: 4%;
+    border-radius: 7px;
+}
+
+/* login form */
+.loginFormRes{
+    width:24%;position:absolute;top:20%;background-color:white;height:60vh;
+    box-shadow:7px 7px 59px lightblue;left:1%;padding:3%;
+}
+
+.loginFormRes .frmControl{
+    margin-top:5% 
+}
+@media(max-width:700px){
+    .loginFormRes{
+        width: 30%;
+        margin-left: 5%;
+    }
+}
+
+@media(max-width:500px){
+    .loginFormRes{
+        width: 60%;
+        margin-left: 7%;
+    }
+}
+/* train icon style */
+
+.trainIcon{
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+
+/* navbar style */
+
+.navbarContainer{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    background-color: blueviolet;
+    color: white;
+    background-size: 100% 100%;
+}
+
+
+.stationLogout{
+    position: absolute;
+    right: 0;
+    font-size: 2rem;
+}
+
+.stationLogout span{
+    margin-top: 2%;
+}
+
+.stationLogo{
+    font-size: 2rem;
+}
+
+.homeButton{
+    display: none;
+    position: absolute;
+    right: 0;
+    font-size: 2rem;
+}
+
+@media (max-width:950px){
+    .navbarContainer{
+        width: 120%;
+    }
+    /* .stationLogout{
+
+    } */
+}
+@media (max-width:400px){
+    .stationLogout{
+        display: none;
+    }
+
+    .homeButton{
+        display: block;
+    }
+}
+
+
+
+/* dashboard style */
+
+.deshbordContainer{
+    display: flex;
+}
+
+.deshbordRightContainer{
+    width: 20vw;
+    box-shadow: 3px 2px lightblue;
+    padding: 2%;
+}
+
+.deshbordRightContainer div{
+    margin-top: 8%;
+    font-size: 1.6rem;
+}
+@media(max-width:400px){
+    .deshbordRightContainer div{
+        margin-top: 6%;
+        font-size: 1rem;
+    }
+
+   
+}
+/* deshboredDetail heading */
+
+.deshHeading{
+    width: 100%;
+    text-align: center;
+}
+
+.servicesDetails{
+    width: 17vw;
+    height: 14vh;
+    background-color: darkorchid;
+    margin-left: 2%;
+    text-align: center;
+    justify-content: center;
+}
+
+@media(max-width:400px){
+    .servicesDetails{
+        width: 15vw;
+        height: 10vh;
+    }
+}
+
+/* table styling */
+
+.tableContainer{
+    display:flex;
+    margin-top:5%;
+}
+
+.table1,.table2{
+    margin-left: 5%;
+}
+
+@media(max-width:1000px){
+    .tableContainer{
+        display:block
+    }
+
+    .table1,.table2{
+        margin-left: 1.5%;
+    }
+}
+
+
+.deleteIcon{
+    font-size: 1.4rem;
+}
